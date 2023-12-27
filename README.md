@@ -31,9 +31,10 @@ conda create -n clip4cir -y python=3.8
 conda activate clip4cir
 conda install -y -c pytorch pytorch=1.7.1 torchvision=0.8.2
 pip install flask==2.0.2
+pip install Werkzeug==2.2.2
 pip install git+https://github.com/openai/CLIP.git
 ```
-3. Download [**FashionIQ**](https://www.kaggle.com/datasets/bitamesbah/fashioniq-bit?select=images) datasets \(only images\)
+3. Download [**FashionIQ images**](https://www.kaggle.com/datasets/bitamesbah/fashioniq-bit?select=images) datasets \(only download \'images\' folder\) and [**FashionIQ captions**](https://drive.google.com/drive/folders/1UMlrNQxCKLqXGMik4gpSx_Gdn65m_xal?usp=drive_link) datasets \(captions) and [**FashionIQ images_split**](https://drive.google.com/drive/folders/1YAi261I1c5MqJ_9umxj4Be4Dw-FbhoOG?usp=drive_link) datasets \(images_split)
 ## Usage
 Here's a brief description of each and every file and folder in the repo:
 
@@ -71,30 +72,6 @@ project_base_path
             | split.dress.train.json
             | split.dress.val.json
             | ...
-
-└───  cirr_dataset       
-       └─── dev
-            | dev-0-0-img0.png
-            | dev-0-0-img1.png
-            | dev-0-1-img0.png
-            | ...
-       
-       └─── test1
-            | test1-0-0-img0.png
-            | test1-0-0-img1.png
-            | test1-0-1-img0.png 
-            | ...
-       
-       └─── cirr
-            └─── captions
-                | cap.rc2.test1.json
-                | cap.rc2.train.json
-                | cap.rc2.val.json
-                
-            └─── image_splits
-                | split.rc2.test1.json
-                | split.rc2.train.json
-                | split.rc2.val.json
 ```
 
 ### Feature Extraction
