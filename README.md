@@ -80,6 +80,15 @@ using the following command or download extracted features from (https://drive.g
 ```shell
 python extract_features.py
 ```
+File structure:
+```
+project_base_path
+└───  fashionIQ_dataset
+└───  data
+        └───  *.pt
+        └───  *.pkl
+└───  *.py
+```
 
 ### Run the Demo
 Start the server and run the demo using the following command
