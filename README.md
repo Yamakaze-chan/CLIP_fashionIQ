@@ -76,7 +76,7 @@ project_base_path
 
 ### Feature Extraction
 Before launching the demo it is necessary to extract the features 
-using the following command or download extracted features from (https://drive.google.com/drive/folders/1Ruh02GEK_zk_BwhVxl-YUxn7FI7C6lv0?usp=drive_link)
+using the following command or download extracted features from (https://drive.google.com/drive/folders/1Ruh02GEK_zk_BwhVxl-YUxn7FI7C6lv0?usp=sharing)
 ```shell
 python extract_features.py
 ```
