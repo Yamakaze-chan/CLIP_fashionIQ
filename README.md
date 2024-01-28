@@ -34,7 +34,7 @@ pip install flask==2.0.2
 pip install Werkzeug==2.2.2
 pip install git+https://github.com/openai/CLIP.git
 ```
-3. Download [**FashionIQ images**](https://www.kaggle.com/datasets/bitamesbah/fashioniq-bit?select=images) \(only download \'images\' folder\) and [**FashionIQ captions**](https://drive.google.com/drive/folders/1UMlrNQxCKLqXGMik4gpSx_Gdn65m_xal?usp=drive_link) \(captions) and [**FashionIQ images_split**](https://drive.google.com/drive/folders/1YAi261I1c5MqJ_9umxj4Be4Dw-FbhoOG?usp=drive_link) \(images_split)
+3. Download [**FashionIQ images**](https://www.kaggle.com/datasets/bitamesbah/fashioniq-bit?select=images) \(only download \'images\' folder\) and [**FashionIQ captions**](https://drive.google.com/drive/folders/1UMlrNQxCKLqXGMik4gpSx_Gdn65m_xal?usp=sharing) \(captions) and [**FashionIQ images_split**](https://drive.google.com/drive/folders/1YAi261I1c5MqJ_9umxj4Be4Dw-FbhoOG?usp=sharing) \(images_split)
 ## Usage
 Here's a brief description of each and every file and folder in the repo:
 
